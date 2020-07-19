@@ -1,0 +1,32 @@
+.App {
+  min-height: 100vh;
+  background: #FF0099;  
+  background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #493240, #FF0099); 
+  
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 40%;
+  border: solid transparent;
+  padding: 10px 10px;
+}
+.search-button {
+  background:#493240;
+  border: none;
+  padding: 10px 10px;
+  border: solid transparent;
+  color: blanchedalmond;
+}
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
